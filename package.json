@@ -1,0 +1,21 @@
+{
+  "name": "link-scrapper",
+  "version": "1.0.0",
+  "description": "A Puppeteer-based link scraper",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "postinstall": "npx puppeteer browsers install chrome"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "puppeteer": "^24.20.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
